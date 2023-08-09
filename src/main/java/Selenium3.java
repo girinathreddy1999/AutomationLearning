@@ -14,7 +14,6 @@ public class Selenium3 {
         driver.get("https://www.google.com/");
         List<WebElement> link=driver.findElements(By.tagName("a"));
         System.out.println(link.size());
-
         for (WebElement l : link)
         {
             System.out.println(l.getText());
