@@ -10,5 +10,6 @@ public class Slenium1 {
         driver.get("https://www.amazon.in/");
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("readmi mobiles");
         driver.close();
+
     }
 }
